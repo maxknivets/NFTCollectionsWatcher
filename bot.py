@@ -18,7 +18,7 @@ watchers = {}
 
 def help(update, context):
   update.effective_chat.send_message("""
-This bot currently supports 5 platforms: Magic Eden, DigitalEyes, Solanart, FTX US, and Alpha Art.
+This bot currently supports 4 platforms: Magic Eden, DigitalEyes, Solanart, and Alpha Art.
 Keep in mind that not every marketplace supports each NFT collection available.
 /add to add a collection to monitor.
 /addmanually to add a colleciton manually. You'll have to specify the name for each platform.
